@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>Train Scheduler</title>
+	<!-- Latest compiled and minified CSS -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<h1> Train Scheduler</h1>
+			<h4>All Aboard!!</h4>
+			
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2" >
+		<div class="group-info">
+		<p  id="header-search"></span>Current Train Schedule </p>
+		
+		<div id="trainSchedule">
+			<table id="trainTable" style="width:100%">
+				<tr>
+					<th>Train Name</th>
+					<th>Destination</th>
+					<th>Frequency</th>
+					<th>Next Arrival</th>
+					<th>Minutes Away</th>
+				</tr>
+			</table>	
+		</div>
+		
+
+		</div>	
+		</div>
+		
+	</div>
+</div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2" >
+		<div class="group-info">
+			<p id="header-search">Add a Train</p>
+			<form>
+ 			<div class="form-group" id="search-parameters">
+    			<label for="trainName">Train Name</label>
+   				<input type="text" class="form-control" id="trainName" placeholder="First Train">
+  			</div>
+  			<div class="form-group">
+    			<label for="trainDestination">Destination</label>
+    			<input type="text" class="form-control" id="destination" placeholder="eg France">
+  			</div>
+    		<div class="form-group">
+    			<label for="firstTrainTime">First Train Time (HH:mm Military time)</label>
+    			<input type="text" class="form-control" id="firstTrain" placeholder="24:01">
+  			</div>
+    		<div class="form-group">
+    			<label for="TrainFrequency">Frequency (min)</label>
+    			<input type="text" class="form-control" id="trainFrequency" placeholder="15">
+  			</div>
+  				<button type="submit" class="btn btn-default" id="add-train">Add</button>
+  			 	
+			</form>
+		</div>
+		</div>
+	</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+
+
+<script type="text/javascript" src="assets/logic.js"> </script>
+
+
+</script>
+
+</body>
+</html>

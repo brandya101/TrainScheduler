@@ -1,0 +1,47 @@
+h1,h4 {
+	text-align: center;
+	color: white;
+	background-color: #191970;
+	height: 130px;
+	padding: 45px;
+	margin-bottom: 30px;
+}
+
+.jumbotron{
+	margin: 0px auto;
+}
+
+#header-search {
+	color: white;
+	background-color: #191970;
+	font-size: 15px;
+	height: 30px;
+	padding-top: 5px;
+	padding-left: 3px;
+
+}
+
+#search , #clear-results {
+	background-color: #c0c0c0;
+	color: white;
+	margin: 0px 0px 10px 10px;
+}
+
+.group-info {
+	border: #191970 solid 2px;
+	margin-bottom: 30px;
+}
+
+.form-group{
+	padding: 10px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
